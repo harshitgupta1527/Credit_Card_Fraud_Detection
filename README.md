@@ -129,4 +129,6 @@ To containerize and launch the entire stack using Docker Compose:
 2.  **Bcrypt Hashing**: User credentials are encrypted using native bcrypt salts (bypasses passlib compatibility limitations).
 3.  **Role-Based Access Control (RBAC)**: Endpoint route protections restrict admin console metrics `/admin/health` and logs `/admin/logs` strictly to accounts with the `Admin` role.
 4.  **CORS & Input Validation**: Safe Pydantic schemas validate input vectors to block injection payloads.
+
+
 **Intern ID:CMPPJXZLO0**
