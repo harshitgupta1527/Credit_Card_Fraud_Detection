@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.venv/
+env/
+venv/
+ENV/
+.env
+.env.local
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data
+data/
+*.csv
+*.zip
+*.tar.gz
+*.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+.DS_Store
+
+# Logs
+*.log
+catboost_info/
